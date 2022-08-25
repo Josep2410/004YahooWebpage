@@ -1,0 +1,30 @@
+.nav-selection{
+  display:flex;
+  align-items: center;
+  width:60%;  
+  margin-right: 7rem;
+  margin-top:.5rem;
+}
+nav{
+  width:200%;
+  height:3rem;
+  margin-right: 15rem;
+  display: flex;
+  align-items: center;
+}
+.mail-icon{
+  height:2rem;
+}
+ul{
+  list-style-type: none;
+  padding:0;
+}
+li{
+  float:left;
+}
+li:first-child{
+  margin-left: .5rem;
+}
+#notFirstChild{
+  margin-left: 2.75rem;
+}
