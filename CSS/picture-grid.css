@@ -22,12 +22,14 @@
  line-height: 3rem;
  font-size: 2rem;
  padding-left: 2rem;
+ margin-bottom: 0;
 }
 .first-box>section>p{
   font-size: 1.2rem;
   font-weight: 400;
   width:40ch;
   line-height: 1.7rem;
+  margin-top: 1rem;
 }
 
 .first-box:hover>section>h1{
