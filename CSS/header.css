@@ -1,6 +1,5 @@
 header{
   margin-top: 1rem;
-  
   height:5rem;
   display:flex;
 }
@@ -10,11 +9,12 @@ header{
   height:100%;
  
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 .yahoo-container>img{
   height: 3.75rem;
+  
 }
 .yahoo-container>img:hover{
 cursor: pointer;
