@@ -8,52 +8,63 @@
     <link rel="stylesheet" href="/CSS/normalize.css" />
     <link rel="stylesheet" href="/CSS/header.css" />
     <link rel="stylesheet" href="/CSS/navigationBar.css" />
+    <link rel="stylesheet" href="/CSS/picture-grid.css" />
     <title>Yahoo Webpage</title>
   </head>
   <body>
-    <header>
-      <div class="yahoo-container">
-        <img src="/images/icons/yahoo_homepage.png" alt="" />
-      </div>
-      <div class="searchbar-container">
-        <input type="text" />
-        <button class="search-button">
-          <img src="/images/icons/search.png" alt="" />
-        </button>
-      </div>
-      <div class="icons-container">
-        <div class="user-text-container">
-          <img
-            class="user-profile-icon"
-            src="/images/icons/default_user_profile_pic.jpg"
-            alt=""
-          />
-          <p>Joseph</p>
+    <div class="outermost-container">
+      <header>
+        <div class="yahoo-container">
+          <img src="/images/icons/yahoo_homepage.png" alt="" />
         </div>
-        <img class="bell-icon" src="/images/icons/bell.png" alt="" />
-        <div class="email-text-container">
-          <img class="email-icon" src="/images/icons/openMail.png" alt="" />
-          <p>Mail</p>
+        <div class="searchbar-container">
+          <input type="text" />
+          <button class="search-button">
+            <img src="/images/icons/search.png" alt="" />
+          </button>
         </div>
+        <div class="icons-container">
+          <div class="user-text-container">
+            <img
+              class="user-profile-icon"
+              src="/images/icons/default_user_profile_pic.jpg"
+              alt=""
+            />
+            <p>Joseph</p>
+          </div>
+          <img class="bell-icon" src="/images/icons/bell.png" alt="" />
+          <div class="email-text-container">
+            <img class="email-icon" src="/images/icons/openMail.png" alt="" />
+            <p>Mail</p>
+          </div>
+        </div>
+      </header>
+      <div class="nav-selection">
+        <img class="mail-icon" src="/images/icons/mail.webp" alt="" />
+        <nav>
+          <ul>
+            <li><a href="">Mail</a></li>
+            <li id="notFirstChild"><a href="">News</a></li>
+            <li id="notFirstChild"><a href="">Finance</a></li>
+            <li id="notFirstChild"><a href="">Sports</a></li>
+            <li id="notFirstChild"><a href="">Entertainment</a></li>
+            <li id="notFirstChild"><a href="">Life</a></li>
+            <li id="notFirstChild"><a href="">COVID-19</a></li>
+            <li id="notFirstChild"><a href="">Shopping</a></li>
+            <li id="notFirstChild"><a href="">Tech Tips</a></li>
+            <li id="notFirstChild"><a href="">Yahoo Plus</a></li>
+            <li id="notFirstChild"><a href="">More...</a></li>
+          </ul>
+        </nav>
       </div>
-    </header>
-    <div class="nav-selection">
-      <img class="mail-icon" src="/images/icons/mail.webp" alt="" />
-      <nav>
-        <ul>
-          <li><a href="">Mail</a></li>
-          <li id="notFirstChild"><a href="">News</a></li>
-          <li id="notFirstChild"><a href="">Finance</a></li>
-          <li id="notFirstChild"><a href="">Sports</a></li>
-          <li id="notFirstChild"><a href="">Entertainment</a></li>
-          <li id="notFirstChild"><a href="">Life</a></li>
-          <li id="notFirstChild"><a href="">COVID-19</a></li>
-          <li id="notFirstChild"><a href="">Shopping</a></li>
-          <li id="notFirstChild"><a href="">Tech Tips</a></li>
-          <li id="notFirstChild"><a href="">Yahoo Plus</a></li>
-          <li id="notFirstChild"><a href="">More...</a></li>
-        </ul>
-      </nav>
+      <article class="picture-grid">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </article>
     </div>
   </body>
 </html>
