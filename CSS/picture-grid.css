@@ -5,7 +5,8 @@
  grid-template-columns: repeat(5,15rem);
  grid-template-rows: 60% 40%;
  height:35rem;
-
+row-gap: 1rem;
+column-gap: .5rem;
 }
 .first-box{
   grid-column: span 5;
@@ -32,8 +33,8 @@
   margin-top: 1rem;
 }
 
-.first-box:hover>section>h1{
-  color:rgb(159, 3, 159);
+.first-box:hover>section>h1  {
+  color:rgb(196, 4, 196);
 }
 .first-box:hover{
   cursor: pointer;
@@ -41,21 +42,27 @@
 .big-thumbnail{
  width:60%;
   height:100%;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .first-box>section{
   background: rgb(232,231,232);
   background: linear-gradient(90deg, rgba(232,231,232,1) 0%, rgba(205,200,202,1) 84%);
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
-aside{
-  display:inline-block;
-  height:20rem;
-  width:22rem;
-  margin-left: 1rem;
-  border: 2px solid black;
- 
+.grid-bottom-layer-kids:hover{
+  color:rgb(196, 4, 196);
+  cursor: pointer;
+}
+
+.images-bottom-layer{
+  height:55%;
+  width:95%;
+  border-radius:5px;
+}
+.mini-text{
+  margin-top:5px;
+  font-weight: 700;
 }
