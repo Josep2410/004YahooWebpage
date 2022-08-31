@@ -1,0 +1,12 @@
+.grid-and-aside-container{
+  display: flex;
+  border:2px solid green;
+  
+}
+aside{
+  display:inline-block;
+  width:19%;
+  height:auto;
+  border: 2px solid black;
+  margin-top: 20px;
+}
