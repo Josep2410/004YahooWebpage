@@ -7,7 +7,7 @@
  height:35rem;
  row-gap: 1rem;
  column-gap: 1rem;
- border: 2px solid red;
+ 
  flex-grow:1;
 }
 .first-box{
