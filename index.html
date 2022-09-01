@@ -133,7 +133,11 @@
         <aside class="homepageButton-trendingNow-container">
           <button class="homepage-button">Make Yahoo your homepage</button>
           <div class="oneliner-container trending-now-container">
-            <img src="images/icons/rectangle.png" alt="" />
+            <img
+              class="oneliner-container-image"
+              src="images/icons/rectangle.png"
+              alt=""
+            />
             <p>Trending Now</p>
           </div>
         </aside>
@@ -142,15 +146,44 @@
       <div class="secondHalf-container">
         <div class="story-articles-container">
           <div class="oneliner-container stories-for-you-container">
-            <img src="images/icons/rectangle.png" alt="" />
+            <img
+              class="oneliner-container-image"
+              src="images/icons/rectangle.png"
+              alt=""
+            />
             <p>Stories for you</p>
           </div>
           <article class="story-articles">story 1</article>
-          <article class="story-articles">story 2</article>
-          <article class="story-articles">story 3</article>
+          <article class="story-articles story-article-not-first">
+            story 2
+          </article>
+          <article class="story-articles story-article-not-first">
+            story 3
+          </article>
         </div>
         <aside class="aside-contents-container">
-          <aside class="weather-container"></aside>
+          <aside class="weather-container">
+            <section class="weather-locator-container">
+              <div class="oneliner-container">
+                <img
+                  class="oneliner-container-image"
+                  src="images/icons/rectangle.png"
+                  alt=""
+                />
+                <p>Weather</p>
+              </div>
+              <div class="oneliner-container">
+                <p>Houston</p>
+                <img
+                  class="locatorImage"
+                  src="images/icons/locator_Icon.webp"
+                  alt=""
+                />
+              </div>
+            </section>
+            <section class="weather-forecast-container"></section>
+            <section class="SeeMore">See More >></section>
+          </aside>
           <aside class="scoreboard-container"></aside>
         </aside>
       </div>
