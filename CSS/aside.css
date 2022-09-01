@@ -6,11 +6,9 @@
 .homepageButton-trendingNow-container{
   display:inline-block;
   width:23%;
-  height:auto;
+  height:20rem;
   margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  
 }
 
 .homepage-button{
@@ -31,8 +29,25 @@
 }
 
 
-.trending_now-container{
-  width: 100%;
-  height: 4rem;
-  border: 1px solid blue;
+
+.trending-now-container{
+  margin-top: 1rem;
+  display:flex;
+  align-items: center;
 }
+.trending-now-container>img{
+  height:2rem;
+  width:.7rem;
+  margin-right:.5rem;
+}
+.trending-now-container>img:hover,.trending-now-container>p:hover {
+  cursor: pointer;
+}
+.trending-now-container>p{
+  font-size:1.2rem;
+}
+
+.stories-for-you-container{
+  margin:0;
+}
+
