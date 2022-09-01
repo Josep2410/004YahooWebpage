@@ -28,26 +28,35 @@
   cursor: pointer;
 }
 
-
-
-.trending-now-container{
-  margin-top: 1rem;
+.oneliner-container{
   display:flex;
   align-items: center;
 }
-.trending-now-container>img{
+
+.trending-now-container{
+  margin-top: 1rem;
+  
+}
+.oneliner-container>img{
   height:2rem;
   width:.7rem;
   margin-right:.5rem;
 }
-.trending-now-container>img:hover,.trending-now-container>p:hover {
+.oneliner-container>img:hover {
   cursor: pointer;
 }
-.trending-now-container>p{
+.oneliner-container>p{
   font-size:1.2rem;
 }
 
+.trending-now-container{
+  margin-top: 1rem;
+}
+.trending-now-container:hover{
+  cursor: pointer;
+}
 .stories-for-you-container{
   margin:0;
 }
+
 
