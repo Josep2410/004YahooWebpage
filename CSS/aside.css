@@ -45,8 +45,8 @@
 .oneliner-container>img:hover {
   cursor: pointer;
 }
-.oneliner-container>p{
-  font-size:1.2rem;
+.oneliner-container>p:last-child{
+  font-size:1.1rem;
 }
 
 .trending-now-container{

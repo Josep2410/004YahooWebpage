@@ -48,12 +48,12 @@
   height:60%;
   border:1px dotted black;
 }
-.SeeMore{
+.SeeMore,.MoreScores{
   margin-top:.5rem;
   color:dodgerblue;
 }
 
-.SeeMore:hover{
+.SeeMore:hover, .MoreScores:hover{
   cursor: pointer;
   color:blueviolet;
 }
