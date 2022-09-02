@@ -31,11 +31,7 @@
   
 }
 
-.scoreboard-container{
-margin-top:2rem;
-height:50%;
-border:2px solid green;
-}
+
 
 /*=================*/
 
@@ -46,6 +42,7 @@ border:2px solid green;
   justify-content: space-between;
   align-items: center;
 }
+
 
 .weather-forecast-container{
   height:60%;
@@ -64,3 +61,23 @@ border:2px solid green;
 .locatorImage{
   width:2rem;
 }
+#location:hover{
+color:blueviolet;
+cursor:pointer;
+}
+
+/*====Scoreboard CSS===========*/
+
+.scoreboard-container{
+  margin-top:2rem;
+  height:50%;
+  border:2px solid green;
+  }
+
+  .scoreboard-trending-container{
+    height:10%;
+    border:1px dotted black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
