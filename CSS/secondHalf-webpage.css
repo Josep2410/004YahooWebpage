@@ -27,7 +27,7 @@
 }
 .weather-container{
   height:21%;
-  border: 2px solid green;
+  
   
 }
 
@@ -37,7 +37,6 @@
 
 .weather-locator-container{
   height:20%;
- 
   display:flex;
   justify-content: space-between;
   align-items: center;
@@ -52,7 +51,7 @@
 .individual-weather-forecast{
   width:25%;
   height:100%;
- border:2px solid black;
+ 
 }
 
 .forecastImage{
@@ -76,9 +75,15 @@
 .locatorImage{
   width:2rem;
 }
+
 #location:hover{
 color:blueviolet;
 cursor:pointer;
+}
+.not-first-containers{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*====Scoreboard CSS===========*/
