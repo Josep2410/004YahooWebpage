@@ -1,8 +1,6 @@
 .secondHalf-container{
-  
   height:75vh;
   display: flex;
-
 }
 .story-articles-container{
   width:76.5%;
@@ -62,7 +60,7 @@
   margin-top: .75rem;
 }
 
-.SeeMore,.MoreScores{
+.SeeMore{
   margin-top:.7rem;
   color:dodgerblue;
 }
@@ -90,14 +88,77 @@ cursor:pointer;
 
 .scoreboard-container{
   margin-top:2rem;
-  height:50%;
-  border:2px solid green;
+  height:45%;
+ 
   }
 
   .scoreboard-trending-container{
     height:10%;
-    border:1px dotted black;
     display:flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .game-schedule-container{
+   
+    height:65%;
+    display: flex;
+    flex-direction: column;
+    
+ 
+  }
+
+  .day{
+    height: 8%;
+    display: flex;
+    font-size:1rem;
+    color:grey;
+    align-items: center;
+  }
+  .day:hover{
+    cursor: pointer;
+  }
+  .not-yesterday{
+    margin-left:1.5rem;
+  }
+  .today{
+    color:blueviolet;
+    text-decoration: underline;
+  }
+
+  .game{
+    height:33%;
+    display: flex;
+    flex-direction: column;
+    padding-top:1.2rem;
+    font-size:.94rem;
+  }
+ 
+  .game:hover{
+    cursor:pointer;
+    background-color: rgb(243, 241, 240);
+  }
+  .teams-and-time{
+    height:20%;
+    display:flex;
+    align-items: center;
+  }
+  
+  .teams-and-time>img{
+    height:1.6rem;
+    margin-right: .75rem;
+    margin-left:.25rem;
+  }
+
+  .time{
+    justify-content: end;
+  }
+
+  .MoreScores{
+    
+    color:dodgerblue;
+  }
+
+  .sanFranImage{
+    margin-left:0;
   }

@@ -58,7 +58,6 @@
 .stories-for-you-container{
   margin:0;
   width:100%;
-  border:2px solid blue;
   height:4%;
   align-items: flex-start;
 }
