@@ -5,14 +5,14 @@
 .story-articles-container{
   width:74%;
   height:100%;
-  border:2px solid black;
-  display: flex;
-  flex-direction: column;
+ 
+ 
   margin-right:2rem;
 }
 .story-articles{
-  height:12rem;
-  border: 2px solid rgb(255, 111, 0);
+  height:13rem;
+  
+  display:flex;
 }
 
 .story-article-not-first{
@@ -26,9 +26,10 @@
 }
 .weather-container{
   height:21%;
-  
-  
 }
+
+
+
 
 
 
