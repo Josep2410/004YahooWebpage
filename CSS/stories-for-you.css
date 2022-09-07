@@ -9,8 +9,10 @@
 
 .thumbnail{
   height:100%;
+  
   border-radius:5px;
 }
+
 
 .child2{
   display:flex;
@@ -23,14 +25,16 @@
 }
 
 .title{
-  height:1.5rem;
+  height:auto;
 }
 .bodyText{
   height:auto;
   font-size: 1.5rem;
   line-height: 2rem;
 }
-
+.misc{
+  margin-top:.5rem;
+}
 
 .article1,.article2{
   height:50%;
@@ -49,11 +53,14 @@
   width:25%;
   
 }
+
 .image-container>img{
  height:80%;
  border-radius: 5px;
 
 }
+
+
 
 .Headline{
   font-size: 1rem;
