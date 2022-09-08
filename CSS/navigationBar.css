@@ -13,14 +13,14 @@ nav{
 .mail-icon{
   height:2rem;
 }
-ul{
+.navigation-unordered-list{
   list-style-type: none;
   padding:0;
 }
-li{
+.navigation-unordered-list>li{
   float:left;
 }
-li:first-child{
+.navigation-unordered-list>li:first-child{
   margin-left: .5rem;
 }
 #notFirstChild{

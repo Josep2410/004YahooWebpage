@@ -47,6 +47,25 @@
 }
 .oneliner-container>p:last-child{
   font-size:1.1rem;
+  
+}
+.ordered-list-container{
+  display:flex;
+}
+
+.inner-container{
+  width:50%;
+  font-size: 1rem;
+}
+.inner-container>div{
+margin-top: 1rem;
+}
+.inner-container>div:hover{
+ color:blueviolet;
+ cursor: pointer;
+  }
+.box2{
+  margin-left:1rem;
 }
 
 .trending-now-container{
