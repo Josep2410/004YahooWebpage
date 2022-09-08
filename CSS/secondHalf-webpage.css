@@ -19,7 +19,12 @@
   margin-top:2rem;
 }
 
-
+.article1:hover,.article2:hover{
+  cursor:pointer;
+}
+.Headline:hover{
+  color:blueviolet;
+}
 .aside-contents-container{
   width:23%;
   height:100%;
